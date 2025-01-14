@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(34, 33, 33);
+  color: white;
+}
+.tableBox {
+  padding: 20px;
+  background-color: rgb(83, 83, 83);
+  display: flex;
+  flex-direction: column;
+  min-height: 750px;
+  overflow-y: scroll;
+  border-radius: 10px;
+}
+.app {
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 800px;
+}
+
+h1 {
+  text-align: center;
+}
+.tableSection {
+  flex-grow: 1;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgb(30,30,30);
+  table-layout: fixed;
+}
+
+th, td {
+  border: 1px solid #313131;
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(30,30,30);
+  height: 90px;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
